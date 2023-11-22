@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/dbg_main.dir/dbg_main_autogen/mocs_compilation.cpp.o CMakeFiles/dbg_main.dir/main.cc.o -o dbg_main  src/core/libnm_core_lib.a 
