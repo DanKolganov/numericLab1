@@ -59,8 +59,14 @@ double find_max_uvi(const resultTable& tbl) {
     double max = 0.f;
 
     for (auto& row : tbl) {
-        if (row.uvi > max) max = row.uvi;
+        if (row.ui > max) max = row.ui;
     }
 
     return max;
+}
+
+void dumpTableInFile(const resultTable& tbl, std::ofstream& fs) {
+    for (const auto& row : tbl) {
+        fs << row << '\n';
+    }
 }

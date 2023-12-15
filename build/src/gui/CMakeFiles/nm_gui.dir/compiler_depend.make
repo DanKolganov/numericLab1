@@ -304,6 +304,22 @@ src/gui/CMakeFiles/nm_gui.dir/nm_gui_autogen/mocs_compilation.cpp.o: src/gui/nm_
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__debug \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/enable_insertable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/format_error.h \
@@ -641,8 +657,11 @@ src/gui/CMakeFiles/nm_gui.dir/nm_gui_autogen/mocs_compilation.cpp.o: src/gui/nm_
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cwctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
@@ -1775,6 +1794,7 @@ src/gui/CMakeFiles/nm_gui.dir/src/helpform.cc.o: /Users/d3zzle/numericLab1/src/g
   /opt/homebrew/include/QtCore/qglobalstatic.h \
   /opt/homebrew/include/QtCore/qhash.h \
   /opt/homebrew/include/QtCore/qhashfunctions.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
@@ -1840,6 +1860,7 @@ src/gui/CMakeFiles/nm_gui.dir/src/helpform.cc.o: /Users/d3zzle/numericLab1/src/g
   /opt/homebrew/include/QtCore/qtversionchecks.h \
   /opt/homebrew/include/QtCore/qtypeinfo.h \
   /opt/homebrew/include/QtCore/qtypes.h \
+  /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/include/QtCore/qutf8stringview.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/qvarlengtharray.h \
@@ -1861,28 +1882,42 @@ src/gui/CMakeFiles/nm_gui.dir/src/helpform.cc.o: /Users/d3zzle/numericLab1/src/g
   /opt/homebrew/include/QtGui/qkeysequence.h \
   /opt/homebrew/include/QtGui/qpaintdevice.h \
   /opt/homebrew/include/QtGui/qpalette.h \
+  /opt/homebrew/include/QtGui/qpicture.h \
   /opt/homebrew/include/QtGui/qpixelformat.h \
   /opt/homebrew/include/QtGui/qpixmap.h \
   /opt/homebrew/include/QtGui/qpolygon.h \
   /opt/homebrew/include/QtGui/qregion.h \
   /opt/homebrew/include/QtGui/qrgb.h \
   /opt/homebrew/include/QtGui/qrgba64.h \
+  /opt/homebrew/include/QtGui/qtextdocument.h \
   /opt/homebrew/include/QtGui/qtgui-config.h \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
   /opt/homebrew/include/QtGui/qtransform.h \
   /opt/homebrew/include/QtGui/qwindowdefs.h \
   /opt/homebrew/include/QtWidgets/QApplication \
+  /opt/homebrew/include/QtWidgets/QHBoxLayout \
+  /opt/homebrew/include/QtWidgets/QLabel \
+  /opt/homebrew/include/QtWidgets/QVBoxLayout \
   /opt/homebrew/include/QtWidgets/QWidget \
+  /opt/homebrew/include/QtWidgets/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/qframe.h \
+  /opt/homebrew/include/QtWidgets/qgridlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtWidgets/qwidget.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qvariant.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QPixmap \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
 src/gui/CMakeFiles/nm_gui.dir/src/main.cc.o: /Users/d3zzle/numericLab1/src/gui/src/main.cc \
@@ -2188,6 +2223,22 @@ src/gui/CMakeFiles/nm_gui.dir/src/main.cc.o: /Users/d3zzle/numericLab1/src/gui/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__debug \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/enable_insertable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/format_error.h \
@@ -2525,8 +2576,11 @@ src/gui/CMakeFiles/nm_gui.dir/src/main.cc.o: /Users/d3zzle/numericLab1/src/gui/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cwctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
@@ -4047,7 +4101,6 @@ src/gui/CMakeFiles/nm_gui.dir/src/mainwindow.cc.o: /Users/d3zzle/numericLab1/src
   /opt/homebrew/include/QtPrintSupport/qtprintsupportexports.h \
   /opt/homebrew/include/QtPrintSupport/qtprintsupportglobal.h \
   /opt/homebrew/include/QtWidgets/QApplication \
-  /opt/homebrew/include/QtWidgets/QComboBox \
   /opt/homebrew/include/QtWidgets/QCommonStyle \
   /opt/homebrew/include/QtWidgets/QHBoxLayout \
   /opt/homebrew/include/QtWidgets/QHeaderView \
@@ -4061,6 +4114,8 @@ src/gui/CMakeFiles/nm_gui.dir/src/mainwindow.cc.o: /Users/d3zzle/numericLab1/src
   /opt/homebrew/include/QtWidgets/QScrollerProperties \
   /opt/homebrew/include/QtWidgets/QStatusBar \
   /opt/homebrew/include/QtWidgets/QTableWidget \
+  /opt/homebrew/include/QtWidgets/QTextBrowser \
+  /opt/homebrew/include/QtWidgets/QTextEdit \
   /opt/homebrew/include/QtWidgets/QVBoxLayout \
   /opt/homebrew/include/QtWidgets/QWidget \
   /opt/homebrew/include/QtWidgets/QtWidgets \
@@ -4872,6 +4927,22 @@ src/gui/CMakeFiles/nm_gui.dir/src/tablewindow.cc.o: /Users/d3zzle/numericLab1/sr
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__debug \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/enable_insertable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/format_error.h \
@@ -5209,8 +5280,11 @@ src/gui/CMakeFiles/nm_gui.dir/src/tablewindow.cc.o: /Users/d3zzle/numericLab1/sr
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cwctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
@@ -5620,8 +5694,6 @@ src/gui/CMakeFiles/nm_gui.dir/src/tablewindow.cc.o: /Users/d3zzle/numericLab1/sr
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qlayout.h:
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h:
-
 /opt/homebrew/lib/QtWidgets.framework/Headers/qitemdelegate.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qinputdialog.h:
@@ -5686,6 +5758,12 @@ src/gui/CMakeFiles/nm_gui.dir/src/tablewindow.cc.o: /Users/d3zzle/numericLab1/sr
 
 /opt/homebrew/lib/QtPrintSupport.framework/Headers/qtprintsupportglobal.h:
 
+/opt/homebrew/lib/QtPrintSupport.framework/Headers/qprintpreviewwidget.h:
+
+/opt/homebrew/lib/QtPrintSupport.framework/Headers/qprintpreviewdialog.h:
+
+/opt/homebrew/lib/QtPrintSupport.framework/Headers/qprinter.h:
+
 /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qwindowdefs.h:
@@ -5710,9 +5788,9 @@ src/gui/nm_gui_autogen/include/ui_helpform.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qundogroup.h:
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/move_iterator.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qtguiversion.h:
 
@@ -5747,10 +5825,6 @@ src/gui/nm_gui_autogen/include/ui_helpform.h:
 /opt/homebrew/lib/QtGui.framework/Headers/qpointingdevice.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qpixmapcache.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/qsizegrip.h:
-
-/opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qpicture.h:
 
@@ -5806,9 +5880,9 @@ src/gui/nm_gui_autogen/include/ui_helpform.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qcolor.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/common_type.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_any_of.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/common_type.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qclipboard.h:
 
@@ -5960,9 +6034,9 @@ src/gui/nm_gui_autogen/include/ui_helpform.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qnamespace.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_class.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/utility:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_class.h:
 
 /opt/homebrew/include/QtGui/qtransform.h:
 
@@ -6011,8 +6085,6 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 /opt/homebrew/lib/QtCore.framework/Headers/qfuture.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qflags.h:
-
-/opt/homebrew/lib/QtPrintSupport.framework/Headers/qprintpreviewwidget.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qfactoryinterface.h:
 
@@ -6138,14 +6210,6 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 
 /opt/homebrew/include/QtWidgets/qlistview.h:
 
-/opt/homebrew/include/QtWidgets/qlayoutitem.h:
-
-/opt/homebrew/include/QtWidgets/qlayout.h:
-
-/opt/homebrew/lib/QtGui.framework/Headers/qinputmethod.h:
-
-/opt/homebrew/include/QtWidgets/qgridlayout.h:
-
 /opt/homebrew/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h:
 
 /opt/homebrew/include/QtWidgets/qgraphicswidget.h:
@@ -6160,29 +6224,9 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 
 /opt/homebrew/include/QtWidgets/qgraphicslayoutitem.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_fd_def.h:
-
-/opt/homebrew/lib/QtGui.framework/Headers/qrgb.h:
-
-/opt/homebrew/lib/QtCore.framework/Headers/qrandom.h:
-
-/opt/homebrew/include/QtWidgets/qframe.h:
-
 /opt/homebrew/include/QtWidgets/qdialog.h:
 
-/opt/homebrew/lib/QtCore.framework/Headers/qabstractproxymodel.h:
-
-/opt/homebrew/lib/QtPrintSupport.framework/Headers/qprinterinfo.h:
-
 /opt/homebrew/include/QtWidgets/qcombobox.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_rune_t.h:
-
-/opt/homebrew/lib/QtGui.framework/Headers/qpaintdevicewindow.h:
-
-/opt/homebrew/include/QtCore/qiodevicebase.h:
-
-/opt/homebrew/include/QtWidgets/qboxlayout.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__random/generate_canonical.h:
 
@@ -6191,6 +6235,8 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h:
 
 /opt/homebrew/include/QtWidgets/QtWidgetsDepends:
+
+/opt/homebrew/include/QtWidgets/QTextEdit:
 
 /opt/homebrew/include/QtWidgets/QTableWidget:
 
@@ -6215,12 +6261,6 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_stable_sort.h:
 
 /opt/homebrew/include/QtWidgets/QLayout:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/operations.h:
-
-/opt/homebrew/include/QtWidgets/QLabel:
-
-/opt/homebrew/lib/QtPrintSupport.framework/Headers/qprintpreviewdialog.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qtabwidget.h:
 
@@ -6302,12 +6342,6 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 
 /opt/homebrew/include/QtGui/qimagereader.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/ranges_construct_at.h:
-
-/opt/homebrew/include/QtGui/qtextdocument.h:
-
-/opt/homebrew/include/QtGui/qimageiohandler.h:
-
 /opt/homebrew/include/QtCore/QVariant:
 
 /opt/homebrew/include/QtGui/qeventpoint.h:
@@ -6369,8 +6403,6 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 /opt/homebrew/lib/QtCore.framework/Headers/qsemaphore.h:
 
 /opt/homebrew/include/QtCore/qvariantanimation.h:
-
-/opt/homebrew/include/QtCore/qurl.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qsharedpointer.h:
 
@@ -6468,9 +6500,9 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 
 /opt/homebrew/include/QtCore/q20functional.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/os/availability.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/nl_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/os/availability.h:
 
 /opt/homebrew/include/QtCore/QVector:
 
@@ -6548,18 +6580,6 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/source_location:
 
-/opt/homebrew/lib/QtGui.framework/Headers/qgenericmatrix.h:
-
-/opt/homebrew/lib/QtCore.framework/Headers/qmessageauthenticationcode.h:
-
-/opt/homebrew/include/QtCore/QDateTime:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/month_weekday.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_mode_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iomanip:
-
 /opt/homebrew/lib/QtWidgets.framework/Headers/qgroupbox.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_fd_clr.h:
@@ -6567,10 +6587,6 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/inttypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/future:
-
-/opt/homebrew/include/QtCore/qvariant.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h:
 
@@ -6618,20 +6634,6 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__random/default_random_engine.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perms.h:
-
-/opt/homebrew/lib/QtCore.framework/Headers/qfutureinterface.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h:
@@ -6650,11 +6652,37 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 
 /Users/d3zzle/numericLab1/src/gui/src/main.cc:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
+/opt/homebrew/lib/QtWidgets.framework/Headers/qsizegrip.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
+/opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h:
 
-/opt/homebrew/include/QtWidgets/QWidget:
+/opt/homebrew/include/QtWidgets/qlayoutitem.h:
+
+/opt/homebrew/include/QtWidgets/qlayout.h:
+
+/opt/homebrew/lib/QtGui.framework/Headers/qinputmethod.h:
+
+/opt/homebrew/include/QtWidgets/qgridlayout.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_fd_def.h:
+
+/opt/homebrew/lib/QtGui.framework/Headers/qrgb.h:
+
+/opt/homebrew/lib/QtCore.framework/Headers/qrandom.h:
+
+/opt/homebrew/include/QtWidgets/qframe.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_rune_t.h:
+
+/opt/homebrew/lib/QtGui.framework/Headers/qpaintdevicewindow.h:
+
+/opt/homebrew/include/QtCore/qiodevicebase.h:
+
+/opt/homebrew/include/QtWidgets/qboxlayout.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/operations.h:
+
+/opt/homebrew/include/QtWidgets/QLabel:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qtnoop.h:
 
@@ -6662,9 +6690,17 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 
 /opt/homebrew/include/QtWidgets/QApplication:
 
+/opt/homebrew/include/QtGui/qimageiohandler.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/ranges_construct_at.h:
+
+/opt/homebrew/include/QtGui/qtextdocument.h:
+
 /opt/homebrew/include/QtGui/qguiapplication_platform.h:
 
 /opt/homebrew/include/QtGui/qguiapplication.h:
+
+/opt/homebrew/include/QtCore/qurl.h:
 
 /opt/homebrew/include/QtCore/qnativeinterface.h:
 
@@ -6713,14 +6749,6 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 /opt/homebrew/lib/QtCore.framework/Headers/QVector:
 
 /opt/homebrew/include/QtWidgets/qtwidgets-config.h:
-
-/opt/homebrew/lib/QtCore.framework/Headers/qversionnumber.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_va_list.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
-
-/opt/homebrew/include/QtWidgets/qsizepolicy.h:
 
 /opt/homebrew/include/QtGui/qwindowdefs.h:
 
@@ -6777,6 +6805,10 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 /opt/homebrew/lib/QtGui.framework/Headers/qshortcut.h:
 
 /opt/homebrew/include/QtCore/qversiontagging.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem:
+
+/opt/homebrew/include/QtCore/qvariant.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qxpfunctional.h:
 
@@ -6836,12 +6868,6 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 
 /opt/homebrew/include/QtCore/qstringfwd.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
-
-/opt/homebrew/include/QtCore/qstringconverter_base.h:
-
 /opt/homebrew/lib/QtGui.framework/Headers/qaction.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qsequentialiterable.h:
@@ -6885,8 +6911,6 @@ src/gui/nm_gui_autogen/include/ui_mainwindow.h:
 /opt/homebrew/include/QtCore/qnamespace.h:
 
 /opt/homebrew/include/QtCore/qminmax.h:
-
-/opt/homebrew/lib/QtPrintSupport.framework/Headers/qprinter.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cerrno:
 
@@ -7064,27 +7088,23 @@ src/gui/nm_gui_autogen/UVLADIE3JM/moc_helpform.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/types.h:
 
+/opt/homebrew/lib/QtGui.framework/Headers/qtextdocument.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/resource.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_member_object_pointer.h:
-
-/opt/homebrew/include/QtCore/qvarlengtharray.h:
-
-/opt/homebrew/include/QtCore/qprocessordetection.h:
-
-/opt/homebrew/include/QtCore/qexceptionhandling.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/operations.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_wchar_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_useconds_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_uid_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_ucontext.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_u_short.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
 
@@ -7121,6 +7141,14 @@ src/gui/nm_gui_autogen/UVLADIE3JM/moc_helpform.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/lazy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_nlink_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iomanip:
+
+/opt/homebrew/include/QtCore/QDateTime:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/month_weekday.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_mode_t.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qvarlengtharray.h:
 
@@ -7160,10 +7188,6 @@ src/gui/nm_gui_autogen/UVLADIE3JM/moc_helpform.cpp:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qeventloop.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_u_short.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
 /opt/homebrew/include/QtCore/qflags.h:
@@ -7181,16 +7205,6 @@ src/gui/nm_gui_autogen/UVLADIE3JM/moc_helpform.cpp:
 src/gui/nm_gui_autogen/include/ui_tablewindow.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_symbol_aliasing.h:
-
-/opt/homebrew/include/QtCore/qanystringview.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_binary_search.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/tuple:
-
-/opt/homebrew/lib/QtCore.framework/Headers/qvariant.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/wait.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_caddr_t.h:
 
@@ -7247,6 +7261,10 @@ src/gui/nm_gui_autogen/include/ui_tablewindow.h:
 /opt/homebrew/lib/QtCore.framework/Headers/qtemporarydir.h:
 
 /opt/homebrew/include/QtCore/qsize.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/pthread.h:
 
@@ -7414,13 +7432,13 @@ src/gui/nm_gui_autogen/include/ui_tablewindow.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ios:
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/includes.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/signal.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional:
 
@@ -7518,6 +7536,8 @@ src/gui/nm_gui_autogen/include/ui_tablewindow.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_ctype.h:
 
+/opt/homebrew/include/QtWidgets/QTextBrowser:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__utility/swap.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qlcdnumber.h:
@@ -7564,13 +7584,17 @@ src/gui/nm_gui_autogen/include/ui_tablewindow.h:
 
 /opt/homebrew/include/QtCore/qfutureinterface.h:
 
+/opt/homebrew/include/QtCore/qvarlengtharray.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_member_object_pointer.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__utility/convert_to_integral.h:
 
 /opt/homebrew/include/QtWidgets/qgraphicslayout.h:
 
-/opt/homebrew/include/QtCore/qdatetime.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/advance.h:
+
+/opt/homebrew/include/QtCore/qdatetime.h:
 
 /opt/homebrew/include/QtGui/qglyphrun.h:
 
@@ -7579,10 +7603,6 @@ src/gui/nm_gui_autogen/include/ui_tablewindow.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__utility/cmp.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_uid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_types/_intmax_t.h:
 
@@ -7608,9 +7628,9 @@ src/gui/nm_gui_autogen/include/ui_tablewindow.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
-/opt/homebrew/lib/QtGui.framework/Headers/qfontdatabase.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/compare_strong_order_fallback.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget:
 
@@ -7659,6 +7679,8 @@ src/gui/nm_gui_autogen/include/ui_tablewindow.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_copy_assignable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
+
+/opt/homebrew/lib/QtGui.framework/Headers/QPixmap:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/reduce.h:
 
@@ -7786,10 +7808,6 @@ src/gui/nm_gui_autogen/include/ui_tablewindow.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/decay.h:
 
-/opt/homebrew/lib/QtGui.framework/Headers/qfontinfo.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/cdefs.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_in_addr_t.h:
@@ -7844,6 +7862,10 @@ src/gui/nm_gui_autogen/include/ui_tablewindow.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tuple_dir/tuple_indices.h:
 
+/opt/homebrew/lib/QtCore.framework/Headers/qmessageauthenticationcode.h:
+
+/opt/homebrew/lib/QtGui.framework/Headers/qgenericmatrix.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_scoped_enum.h:
@@ -7853,6 +7875,10 @@ src/gui/nm_gui_autogen/include/ui_tablewindow.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tuple_dir/make_tuple_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_seek_set.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perms.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort.h:
 
@@ -7910,6 +7936,10 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/operations.h:
+
+/opt/homebrew/include/QtCore/qexceptionhandling.h:
+
 /opt/homebrew/lib/QtCore.framework/Headers/qlist.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/midpoint.h:
@@ -7924,17 +7954,15 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/stdio.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ranges/subrange.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/time.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__mutex_base:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qswap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
+
+/opt/homebrew/include/QtWidgets/QWidget:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qstandarditemmodel.h:
 
@@ -7978,6 +8006,8 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
+
 /opt/homebrew/include/QtGui/qtgui-config.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
@@ -7992,11 +8022,13 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/allocator_destructor.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
+/opt/homebrew/lib/QtCore.framework/Headers/qstringlistmodel.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/arm/_types.h:
+/opt/homebrew/lib/QtGui.framework/Headers/qtextformat.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_types/_uint64_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/allocator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__availability:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_fill_n.h:
 
@@ -8006,11 +8038,27 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/align.h:
 
-/opt/homebrew/include/QtCore/qtypeinfo.h:
+/opt/homebrew/lib/QtPrintSupport.framework/Headers/qprinterinfo.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__locale:
+/opt/homebrew/lib/QtCore.framework/Headers/qabstractproxymodel.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__concepts/regular.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__utility/pair.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/sortable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/size.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/segmented_iterator.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qcolormap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
 
 /opt/homebrew/include/QtCore/qsysinfo.h:
 
@@ -8023,12 +8071,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/numeric:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/mergeable.h:
-
-/opt/homebrew/include/QtCore/qtversionchecks.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_xlocale.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qgraphicsview.h:
 
@@ -8055,16 +8097,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__random/log2.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/distance.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/accumulate.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_rsize_t.h:
 
@@ -8120,6 +8152,12 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
 
+/opt/homebrew/include/QtCore/qtversionchecks.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_xlocale.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__concepts/semiregular.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
@@ -8142,6 +8180,10 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/arm/types.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/tuple:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_binary_search.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/binary_negate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
@@ -8158,6 +8200,14 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/inner_product.h:
 
+/opt/homebrew/lib/QtCore.framework/Headers/qversionnumber.h:
+
+/opt/homebrew/include/QtWidgets/qsizepolicy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_va_list.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_ctermid.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/formatter.h:
@@ -8173,6 +8223,38 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /opt/homebrew/include/QtCore/qexception.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/concepts.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h:
+
+/opt/homebrew/include/QtCore/qlibrary.h:
+
+/opt/homebrew/include/QtCore/qdarwinhelpers.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/accumulate.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
+
+/opt/homebrew/include/QtCore/QRect:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/limits:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_mach_port_t.h:
+
+/opt/homebrew/lib/QtCore.framework/Headers/qtextboundaryfinder.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_uintptr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/stdlib.h:
 
@@ -8242,10 +8324,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/transform.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__concepts/regular.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_gid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
@@ -8278,10 +8356,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/appleapiopts.h:
-
 /opt/homebrew/include/QtWidgets/qtreewidgetitemiterator.h:
 
 /opt/homebrew/include/QtCore/qset.h:
@@ -8292,10 +8366,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdint:
 
-/opt/homebrew/lib/QtCore.framework/Headers/qtextboundaryfinder.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_uintptr_t.h:
-
 /opt/homebrew/lib/QtGui.framework/Headers/qfontmetrics.h:
 
 /opt/homebrew/include/QtGui/qvector4d.h:
@@ -8303,6 +8373,16 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /opt/homebrew/lib/QtCore.framework/Headers/qttranslation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
+
+/opt/homebrew/lib/QtGui.framework/Headers/qfontdatabase.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/compare_strong_order_fallback.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_status.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/year_month_day.h:
 
@@ -8322,8 +8402,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h:
 
-/opt/homebrew/lib/QtGui.framework/Headers/qtextdocument.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/type_identity.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/statically_widen.h:
@@ -8342,6 +8420,8 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /opt/homebrew/include/QtWidgets/qabstractspinbox.h:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_swap_ranges.h:
@@ -8349,8 +8429,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qrawfont.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/segmented_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/random:
 
@@ -8436,8 +8514,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/sort.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__availability:
-
 /opt/homebrew/lib/QtWidgets.framework/Headers/qgraphicsscene.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qendian.h:
@@ -8456,17 +8532,11 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /opt/homebrew/include/QtCore/qgenericatomic.h:
 
-/opt/homebrew/include/QtWidgets/QComboBox:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/concepts.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__concepts/constructible.h:
-
-/opt/homebrew/lib/QtCore.framework/Headers/qcborstreamwriter.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__mbstate_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
@@ -8480,8 +8550,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/machine/endian.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_mach_port_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
@@ -8494,6 +8562,12 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/arm/_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_types/_uint64_t.h:
+
 /opt/homebrew/lib/QtCore.framework/Headers/qsize.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/stdlib.h:
@@ -8501,6 +8575,12 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/conditional.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/time.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/stdio.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qbackingstore.h:
 
@@ -8511,6 +8591,10 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/strong_order.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h:
+
+/opt/homebrew/include/QtCore/qstringconverter_base.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qicon.h:
 
@@ -8584,10 +8668,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_partition.h:
 
-/opt/homebrew/include/QtCore/QRect:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/limits:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/rotate.h:
@@ -8596,37 +8676,23 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_nth_element.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qpalette.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_next_permutation.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_wchar_t.h:
-
-/opt/homebrew/lib/QtCore.framework/Headers/qstringlistmodel.h:
-
-/opt/homebrew/lib/QtGui.framework/Headers/qtextformat.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/allocator.h:
-
 /opt/homebrew/lib/QtWidgets.framework/Headers/qtextedit.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_ucontext.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressdialog.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qmatrix4x4.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_set_symmetric_difference.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/arm/signal.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/addressof.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qprocess.h:
 
@@ -8645,6 +8711,14 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_remove_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path.h:
+
+/opt/homebrew/include/QtCore/qanystringview.h:
+
+/opt/homebrew/lib/QtCore.framework/Headers/qvariant.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/wait.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qpropertyprivate.h:
 
@@ -8681,12 +8755,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /opt/homebrew/lib/QtWidgets.framework/Headers/qwizard.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_generate_n.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__utility/pair.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/sortable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_find_end.h:
 
@@ -8744,6 +8812,10 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qrgba64.h:
 
+/opt/homebrew/lib/QtCore.framework/Headers/qcborstreamwriter.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__mbstate_t.h:
+
 /opt/homebrew/lib/QtCore.framework/Headers/qdir.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/system_error:
@@ -8753,6 +8825,10 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_adjacent_find.h:
+
+/opt/homebrew/include/QtCore/qtypeinfo.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__locale:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
@@ -8781,6 +8857,12 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /opt/homebrew/lib/QtCore.framework/Headers/qfile.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/in_found_result.h:
+
+/opt/homebrew/include/QtGui/qpagedpaintdevice.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
+
+/opt/homebrew/lib/QtCore.framework/Headers/qfutureinterface.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qsortfilterproxymodel.h:
 
@@ -8812,6 +8894,10 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /opt/homebrew/include/QtCore/qcborstreamwriter.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/addressof.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/arm/signal.h:
+
 /opt/homebrew/include/QtCore/QDebug:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bit/bit_width.h:
@@ -8822,9 +8908,15 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
 
+/opt/homebrew/lib/QtGui.framework/Headers/qfontinfo.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/cdefs.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/for_each.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qlibraryinfo.h:
 
@@ -8870,8 +8962,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_status.h:
-
 /opt/homebrew/lib/QtCore.framework/Headers/qregularexpression.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:
@@ -8893,10 +8983,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/qcolormap.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qmetacontainer.h:
 
@@ -8926,15 +9012,13 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/appleapiopts.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_sort_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_types/_uint32_t.h:
-
-/opt/homebrew/include/QtCore/qlibrary.h:
-
-/opt/homebrew/include/QtCore/qdarwinhelpers.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_locale.h:
 
@@ -8946,17 +9030,11 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_swappable.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__fwd/subrange.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_arithmetic.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_null.h:
-
-/opt/homebrew/include/QtGui/qpagedpaintdevice.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/default_searcher.h:
 
@@ -8968,6 +9046,8 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ranges/concepts.h:
 
+/opt/homebrew/include/QtCore/qprocessordetection.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__random/ranlux.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__concepts/different_from.h:
@@ -8975,8 +9055,6 @@ src/gui/nm_gui_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/mach/arm/_structs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qmdiarea.h:
 

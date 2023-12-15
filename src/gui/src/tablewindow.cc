@@ -14,7 +14,7 @@ TableWindow::TableWindow(QWidget *parent) :
 
     std::cout<<res2.size()<<std::endl;
 
-    ui->tableWidget->setHorizontalHeaderLabels(QStringList()<<"xi"<<"vi"<<"yi"<<"v2i"<<"y2i"<<"viv2i"<<"LE"<<"hi"<<"C1"<<"C2"<<"ui"<<"uvi");
+    ui->tableWidget->setHorizontalHeaderLabels(QStringList()<<"x"<<"v"<<"y"<<"v2i"<<"y2i"<<"viv2i"<<"LE"<<"hi"<<"C1"<<"C2"<<"ui"<<"uvi");
     
     for (int i = 0; i < ui->tableWidget->rowCount();i++)
         {

@@ -32,6 +32,8 @@ resultTable utils::RK4(std::function<double(double,double)> rhs, const config& c
     N_max = cfg.N_max;
     eps = cfg.eps;
 
+    tableRow row(xi, ui, 0.f, 0.f, 0.f, 0.f, 0.f,0.f, 0.f, stepi, C1, C2, 0.f, 0.f);
+    table.push_back(row);
     if (cfg.LEC) {
         int i = 0;
         double u1, u2;
@@ -46,7 +48,7 @@ resultTable utils::RK4(std::function<double(double,double)> rhs, const config& c
                 ui = u1;
                 xi = xi + stepi;
                 viv2i = std::abs(ui - u2);
-                tableRow row(xi, ui, 0.f, u2, viv2i, 0.f,LocalError, LocalError/Old_LocalError, stepi, C1, C2, 0.f, 0.f);
+                tableRow row(xi, ui, 0.f, u2,0.f,  viv2i,  0.f,32*LocalError, LocalError/Old_LocalError, stepi, C1, C2, ((cfg.u_0 - cfg.B)* std::exp(-cfg.A*xi) + cfg.B) - ui, 0.f);
                 table.push_back(row);
                 stepi = stepi * 2;
                 C2++;
@@ -55,14 +57,13 @@ resultTable utils::RK4(std::function<double(double,double)> rhs, const config& c
                 ui = u1;
                 xi = xi + stepi;
                 viv2i = std::abs(ui - u2);
-                tableRow row(xi, ui, 0.f, u2, 0.f,viv2i, LocalError, LocalError/Old_LocalError, stepi, C1, C2, 0.f, 0.f);
+                tableRow row(xi, ui, 0.f, u2, 0.f, viv2i,  0.f,32* LocalError, LocalError/Old_LocalError, stepi, C1, C2,((cfg.u_0 - cfg.B)* std::exp(-cfg.A*xi) + cfg.B) - ui, 0.f);
                 table.push_back(row);
                 i++;
                 
             } else if (LocalError > eps) {
                 stepi = stepi / 2;
                 C1++;
-                i++;
             } else {
                 LOG_ERROR_CLI(cfg);
             }
@@ -76,7 +77,7 @@ resultTable utils::RK4(std::function<double(double,double)> rhs, const config& c
             ui = StepRK4(rhs, xi, ui, stepi);
             xi = xi + stepi;
             i++;
-            tableRow row(xi, ui, 0.f, 0.f,0.f,0.f, 0.f, 0.f, stepi, 0.f, 0.f, 0.f, 0.f);
+            tableRow row(xi, ui, 0.f, 0.f,0.f,0.f, 0.f, 0.f, 0.f, stepi, 0.f, 0.f,((cfg.u_0 - cfg.B)* std::exp(-cfg.A*xi) + cfg.B) - ui, 0.f);
             table.push_back(row);
         }
         LOG_INFO_CLI("RK4 close", cfg);
@@ -144,7 +145,7 @@ resultTable utils::RK4_SOE(std::function<double(double, double, double)> rhs1, s
                 xi = xi + stepi;
                 viv2i = std::abs(ui - tmp2.at(0));
                 //LOG_DEBUG_CLI("viv2i generated", cfg);
-                tableRow row(xi, ui, yi, tmp1.at(0), tmp2.at(1), viv2i, LocalError, LocalError/Old_LocalError, stepi, C1, C2, 0.f, 0.f);
+                tableRow row(xi, ui, yi, tmp1.at(0), tmp2.at(1), viv2i, 0.f, LocalError, LocalError/Old_LocalError, stepi, C1, C2, 0.f, 0.f);
                 //LOG_DEBUG_CLI("try push_back", cfg);
                 table.push_back(row);
                 //LOG_DEBUG_CLI("push_back done", cfg);
@@ -158,7 +159,7 @@ resultTable utils::RK4_SOE(std::function<double(double, double, double)> rhs1, s
                 ui = tmp1.at(0);
                 xi = xi + stepi;
                 viv2i = std::abs(ui - tmp2.at(0));
-                tableRow row(xi, ui, yi, tmp2.at(0), tmp2.at(1), viv2i, LocalError, LocalError/Old_LocalError, stepi, C1, C2, 0.f, 0.f);
+                tableRow row(xi, ui, yi, tmp2.at(0), tmp2.at(1), viv2i, 0.f, LocalError, LocalError/Old_LocalError, stepi, C1, C2, 0.f, 0.f);
                 table.push_back(row);
                 i++; 
             } else if (LocalError > eps) {
@@ -180,7 +181,7 @@ resultTable utils::RK4_SOE(std::function<double(double, double, double)> rhs1, s
             ui = tmp1.at(0);
             xi = xi + stepi;
             i++;
-            tableRow row(xi, ui, yi, 0.f, 0.f, 0.f, 0.f, 0.f, stepi, 0.f, 0.f, 0.f, 0.f);
+            tableRow row(xi, ui, yi, 0.f, 0.f, 0.f, 0.f, 0.f, 0.f, stepi, 0.f, 0.f, 0.f, 0.f);
             table.push_back(row);
         }
         return(table);

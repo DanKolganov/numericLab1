@@ -42,18 +42,18 @@ private slots:
 
     void on_radioButton_violet_clicked(bool checked);
 
-    void on_radioButton_mistake_clicked(bool checked);
+    // void on_radioButton_mistake_clicked(bool checked);
 
     void on_button_table_clicked();
 
-    void on_comboBox_activated(int index);
+    // void on_comboBox_activated(int index);
 
     void on_HelpButton_clicked();
 
 private:
     Ui::MainWindow *ui;
     double h, X;
-    bool LEC = false;
+    bool LEC = true;
     double x_begin, x_end;
     double x_start, y_start;
     double precision;
@@ -62,8 +62,16 @@ private:
     int count_plot = 0;
     double du;
     resultTable res1;
-    double A, B, C;   
+    double A, B, C;
+    double a, tetha;   
     QColor col = QColor(0, 0, 255); 
+
+    double max_LE = 0.l;
+    double max_step = 0.l;
+    double min_step = 0.l;
+    double max_uvi = 0.l;
+    size_t steps_num = 0;
+
     HelpForm form;
 };
 #endif // MAINWINDOW_H

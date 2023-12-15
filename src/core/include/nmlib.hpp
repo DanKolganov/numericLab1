@@ -4,21 +4,23 @@
 #include <map>
 #include <tuple>
 #include <cmath>
+#include<fstream>
 
 #include "logger.hpp"
 
 struct tableRow {
 /// @todo write the constructor for init
 // one row of table for nm output (see actual task)
-    tableRow(double xi, double vi, double yi, double v2i, double y2i, double viv2i,
+    tableRow(double xi, double vi, double yi, double v2i, double y2i, double viv2i,double yiy2i,
             double LE, double LEOLE, double hi, uint C1, uint C2, double ui,
-            double uvi) : xi(xi), vi(vi), yi(yi), v2i(v2i), y2i(y2i), viv2i(viv2i), LEOLE(LEOLE), LE(LE), hi(hi), C1(C1), C2(C2), ui(ui), uvi(uvi) {}
+            double uvi) : xi(xi), vi(vi), yi(yi), v2i(v2i), y2i(y2i), viv2i(viv2i), yiy2i(yiy2i), LEOLE(LEOLE), LE(LE), hi(hi), C1(C1), C2(C2), ui(ui), uvi(uvi) {}
     double xi;
     double vi;
     double v2i;
     double yi;
     double y2i;
     double viv2i;
+    double yiy2i;
     double LE;
     double LEOLE;
     double hi;
@@ -27,9 +29,10 @@ struct tableRow {
     double ui;
     double uvi;
     
+    
+     std::tuple<double, double, double, double, double, double,double, double, double, double, uint, uint, double, double> get_tuple() {
+        return std::tuple<double, double, double, double, double, double, double, double, double, double, uint, uint, double, double> (xi, vi, yi, v2i, y2i, viv2i, yiy2i, LE, LEOLE,hi, C1, C2, ui, uvi);}
 
-    std::tuple<double, double, double, double, double, double, double, double, double, uint, uint, double, double> get_tuple() {
-        return std::tuple<double, double, double, double, double, double, double, double, double, uint, uint, double, double> (xi, vi, yi, v2i, y2i, viv2i, LE, LEOLE,hi, C1, C2, ui, uvi);}
 
 
     friend std::ostream& operator<< (std::ostream& os, const tableRow& row) {
@@ -42,7 +45,7 @@ struct tableRow {
 typedef std::vector<tableRow> resultTable; // table for output
 
 struct config {   
-    config(double x_min, double x_max, double x_0, double u_0, double du_0, double step, uint N_max, bool LEC, double eps, double A, double B, double C) : x_min(x_min), x_max(x_max), x_0(x_0), u_0(u_0), du_0(du_0), step(step), N_max(N_max), LEC(LEC), eps(eps) {}
+    config(double x_min, double x_max, double x_0, double u_0, double du_0, double step, uint N_max, bool LEC, double eps, double A, double B, double C) : x_min(x_min), x_max(x_max), x_0(x_0), u_0(u_0), du_0(du_0), step(step), N_max(N_max), LEC(LEC), eps(eps), A(A), B(B) {}
     config(std::tuple<double, double, double, double, double, double, uint, bool, double, double, double, double> tpl) : config(std::get<0>(tpl), std::get<1>(tpl), std::get<2>(tpl), std::get<3>(tpl), std::get<4>(tpl), std::get<5>(tpl), std::get<6>(tpl), std::get<7>(tpl), std::get<8>(tpl), std::get<9>(tpl), std::get<10>(tpl), std::get<11>(tpl)) {} 
     // Left and right limits for x variable
     double x_min; 
@@ -62,6 +65,8 @@ struct config {
     double A;
     double B;
     double C;
+
+    
 
     friend std::ostream& operator<< (std::ostream& os, const config& cfg) {
         os << "x_min=" << cfg.x_min << " x_max=" << cfg.x_max << " x_0=" << cfg.x_0 
@@ -125,3 +130,5 @@ double find_max_h(const resultTable& tbl);
 double find_min_h(const resultTable& tbl);
 
 double find_max_uvi(const resultTable& tbl);
+
+void dumpTableInFile(const resultTable&, std::ofstream&);
